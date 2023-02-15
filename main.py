@@ -5,7 +5,6 @@ morse_code_alphanum = {'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.'
 
 input_str = input('Enter a string to be converted to morse code: ')
 
-
 input_str = input_str.upper()
 output_str = ''
 
