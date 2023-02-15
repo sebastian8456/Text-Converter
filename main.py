@@ -9,6 +9,7 @@ input_str = input('Enter a string to be converted to morse code: ')
 input_str = input_str.upper()
 output_str = ''
 
+# Run through the string, turning each character into morse code.
 for i in input_str:
     if i in morse_code_alphanum:
         output_str += morse_code_alphanum[i] + ' '
